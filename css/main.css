@@ -34,7 +34,7 @@ body {
 main{
   padding: 100px;
   color: white;
-  background-color: black;
+  background-color: rgb(4, 4, 4);
 }
 
 h2{
@@ -72,3 +72,46 @@ h2{
 h2{
   font-size: 3vh;
 }
+
+.address{
+  position: absolute;
+  left: 75%;
+  top: 150%;
+  color: rgb(238,6,6);
+  font-size: 20px;
+
+
+}
+
+.address:hover{
+  background-color: white;
+}
+
+ul{
+  position: absolute;
+  display: flex;
+  flex-direction:row;
+  left: 68%;
+  top: 95%;
+
+}
+
+li{
+  margin-left: 5%;
+  list-style: none;
+  
+  
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+
+
+}
+
+li a:hover{
+  background-color: rgb(238,6,6);
+  color: white;
+}
+

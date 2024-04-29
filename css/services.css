@@ -1,0 +1,50 @@
+/* .imagehead{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+} */
+html {
+  box-sizing: border-box;
+  
+  
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: News Gothic Condensed, Courier, Courier New, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+
+  
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  
+}
+
+
+.fades{
+  width: 30vh;
+  height: 30vh;
+}
+
+.services{
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 5% auto; 
+  
+}
