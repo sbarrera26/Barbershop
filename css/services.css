@@ -1,19 +1,14 @@
-/* .imagehead{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 
-} */
 html {
   box-sizing: border-box;
-  
-  
+  background-image: url(/images/Screenshot\ 2024-04-24\ at\ 2.58.19\ PM.png);
+  background-color: black;
 }
 
 body {
   margin: 0;
-  background-color: white;
+  background-color: black;
+  color: white;
   font-family: News Gothic Condensed, Courier, Courier New, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 
   
@@ -46,5 +41,97 @@ header{
   justify-content: space-between;
   max-width: 80%;
   margin: 5% auto; 
+ 
   
+}
+
+.fades {
+  width: 30vh;
+  height: 30vh;
+  transition: transform 0.3s ease; 
+}
+
+.fades:hover {
+  transform: scale(1.1); 
+}
+
+
+figcaption {
+  width: 30vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 10px; 
+  
+}
+
+ul{
+  list-style-type: square;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border-style: solid;
+  border-width: 4px;
+}
+
+tr td:first-child{
+  background-color: rgb(155, 155, 155);
+}
+
+tr td{
+  text-align: center;
+}
+
+table caption{
+  color: red;
+}
+
+.pricetable{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.page-links{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.item{
+  margin-left: 1%;
+  margin-top: 1%;
+  list-style: none;
+  
+  
+}
+
+.item a{
+  text-decoration: none;
+  color: white;
+  
+
+
+}
+
+.item a:hover{
+  background-color: rgb(238,6,6);
+  color: white;
+}
+
+footer{
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
 }

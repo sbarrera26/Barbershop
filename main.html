@@ -11,8 +11,7 @@
 
 <div id="headimg"></div>
 
-  <!-- <main> -->
-    <!-- <h2>About</h2> -->
+ 
 
     <div class="about">
 
@@ -32,14 +31,14 @@
 
     </div>
 
-    <!-- <div class="navbar"> -->
+   
       <ul class="page-links">
         <li class="item"><a href="index.html">home</a></li>
         <li class="item"><a href="services.html">services</a></li>
-        <li class="item"><a href="#">merch</a></li>
+        <li class="item"><a href="team.html">team</a></li>
         <li class="item"><a href="#">contact</a></li>
         </ul>
-    <!-- </div> -->
+ 
 
  <main>
 
@@ -48,36 +47,37 @@
   <div id="main" class="slideshow-container">
 
     <div class="mySlides">
-      <!-- <div class="numbertext">1 / 3</div> -->
+     
       <img class="image"src="/images/studio1.png" >
-      <!-- <div class="text">Image One</div> -->
+     
     </div>
 
     <div class="mySlides">
-      <!-- <div class="numbertext">2 / 3</div> -->
+      
       <img class="image"src="/images/studio2.png" >
-      <!-- <div class="text">Image Two</div> -->
+     
     </div>
 
     <div class="mySlides">
-      <!-- <div class="numbertext">3 / 3</div> -->
+  
       <img class="image"src="/images/studio3.png" >
-      <!-- <div class="text">Image Three</div> -->
+   
     </div>
 
   </div>
 
-  <div class ="dotdiv">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    </div>
+ 
 
     <div class="address">
       <p>3320 Park Ln Dallas, TX 72390</p>
+      <p>Contact Us: 214-443-2999</p>
     </div>
 
   </main>
+  <footer>
+    &copy; 2024 Sergio Fadez. All rights reserved.
+  this site is developed by Sergio Barrera
+</footer>
 
   <script text="text/javascript">
 
@@ -95,18 +95,16 @@
   function showSlides() {
     let i;
     let slides = document.querySelectorAll("div#main>div");
-    let dots = document.querySelectorAll("div span");
+    
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].classList.remove("active");
-    }
+    
     slideIndex++;
     if (slideIndex > slides.length) { slideIndex = 1 }
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].classList.add("active");
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
+    
+    setTimeout(showSlides, 3000); 
   }
 </script>
 
